@@ -9797,8 +9797,8 @@ hr.small {
 }
 
 .masthead .masthead-title {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
@@ -9851,7 +9851,7 @@ hr.small {
     height: 13rem;
   }
   .masthead .masthead-title {
-    font-size: 5.35rem;
+    font-size: 5.3rem;
     line-height: 6rem;
 
   }
