@@ -9851,8 +9851,9 @@ hr.small {
     height: 13rem;
   }
   .masthead .masthead-title {
-    font-size: 7.5rem;
-    line-height: 10rem;
+    font-size: 5.5rem;
+    line-height: 6rem;
+
   }
 
   .masthead .masthead-subtitle {
