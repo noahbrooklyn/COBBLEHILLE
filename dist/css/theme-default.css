@@ -112,20 +112,13 @@ address {
   line-height: inherit;
 }
 
-.top_header_area {
-    background: #000;
-    display: block;
-  }
 
-@ media only screenand (min-width: 768px) {
-    .navbar-nav {
-      float: left;
-      margin: 0;
-      margin: 7.5px -15px;
-    }
-  }
-
-
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 
 ol ol,
 ul ul,
