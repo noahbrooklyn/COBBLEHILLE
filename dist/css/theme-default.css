@@ -113,7 +113,7 @@ address {
 }
 
 .top_header_area {
-    background: #141e25;
+    background: #000;
     display: block;
   }
 
@@ -125,17 +125,7 @@ address {
     }
   }
 
-            .nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+          
 
 ol ol,
 ul ul,
