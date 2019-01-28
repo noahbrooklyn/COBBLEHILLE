@@ -115,7 +115,20 @@ address {
 .top_header_area {
     background: #141e25;
     display: block;
+  }
 
+@ media only screenand (min-width: 768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0;
+      margin: 7.5px -15px;
+    }
+  }
+
+            .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 
 ol,
 ul,
