@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2;
   color: inherit;
 }
@@ -9800,7 +9800,7 @@ hr.small {
   font-size: 3rem;
   line-height: 3rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .masthead .masthead-subtitle {
@@ -9851,7 +9851,7 @@ hr.small {
     height: 13rem;
   }
   .masthead .masthead-title {
-    font-size: 5.5rem;
+    font-size: 5.35rem;
     line-height: 6rem;
 
   }
