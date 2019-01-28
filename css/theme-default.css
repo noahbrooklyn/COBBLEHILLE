@@ -594,12 +594,18 @@ mark,
 }
 
 .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+.about-img-fluid {
   max-width: 25%;
     height: auto;
     padding-bottom: 2rem;
     padding-top: 1rem;
     border-radius: 18%;
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
