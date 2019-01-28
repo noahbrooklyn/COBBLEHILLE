@@ -9638,6 +9638,8 @@ hr.small {
 
 .bg-black {
   background-color: #2d9a92 !important;
+  padding-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 .slick-arrow {
