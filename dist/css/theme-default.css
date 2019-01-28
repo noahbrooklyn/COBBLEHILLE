@@ -112,6 +112,11 @@ address {
   line-height: inherit;
 }
 
+.top_header_area {
+    background: #141e25;
+    display: block;
+
+
 ol,
 ul,
 dl {
