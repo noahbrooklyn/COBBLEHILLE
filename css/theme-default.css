@@ -9656,7 +9656,10 @@ hr.small {
 
 .bg-black {
   background-color: #2d9a92 !important;
+  padding: 35px 83px 17px 91px;
 }
+
+
 
 .slick-arrow {
   position: absolute;
