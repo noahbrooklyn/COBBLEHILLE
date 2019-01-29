@@ -9702,7 +9702,7 @@ hr.small {
     opacity: 1;
   }
 }
-.logo {
+#logo {
   display: block;
   width: 90px;
   height: 90px;
@@ -10365,7 +10365,7 @@ form .row:first-child .floating-label-form-group {
     text-align: center;
     line-height: 30px;
     margin: 0 auto 20px;
-    max-width: 660px;
+
   }
 
 .footer {
