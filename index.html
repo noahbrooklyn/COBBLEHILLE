@@ -637,25 +637,42 @@ I can't recommend Michael enough. He's very affordable, he's grown up in the nei
             <div class="row control-group">
               <div class="form-group col-12 floating-label-form-group controls">
                 <form accept-charset="UTF-8" action="https://usebasin.com/f/8712228be9d9" enctype="multipart/form-data" method="POST">
-                  <input type="checkbox" name="Building" value="Residential">Residential<br>
-                  <input type="checkbox" name="Building" value="Car" Commerical> Commerical<br>
-                  <label for="email-address">Email Address</label>
-                  <input type="email" id="email" name="email" required>
-                  <label for="text">Phone</label>
-                  <input type="tel" id="phone" name="phone" required>
-                  <label for="text">Name</label>
-                  <input type="text" id="name" name="name" required>
-                  <textarea rows="4" cols="50" name="comment" required>
-                  </textarea>
 
-                  <button type="submit">Submit</button>
-                </form>
+
+                  <div class="container">
+                  <form accept-charset="UTF-8" action="https://usebasin.com/f/8712228be9d9" enctype="multipart/form-data" method="POST">
+
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+
+
+
+
+
+
 
           </div>
-        </div>
 
       </section>
 
+</div>
 
   <!-- * * * * * * * * * * * * * * * -->
   <!-- * Callout Section - Button * -->
