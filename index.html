@@ -636,15 +636,17 @@ I can't recommend Michael enough. He's very affordable, he's grown up in the nei
             <h2 class="page-section-heading text-uppercase text-center">Get a free estimate</h2>
             <div class="row control-group">
               <div class="form-group col-12 floating-label-form-group controls">
-
                 <form accept-charset="UTF-8" action="https://usebasin.com/f/8712228be9d9" enctype="multipart/form-data" method="POST">
                   <input type="checkbox" name="Building" value="Residential">Residential<br>
-                    <input type="checkbox" name="Building" value="Car" Commerical> Commerical<br>
+                  <input type="checkbox" name="Building" value="Car" Commerical> Commerical<br>
                   <label for="email-address">Email Address</label>
                   <input type="email" id="email" name="email" required>
-                  <input type="phone" id="phone" name="phone" required>
-                  <input type="file" id="attachments" name="attachments[]" multiple required>
-                  <input type="file" id="resume" name="resume" required>
+                  <label for="text">Phone</label>
+                  <input type="tel" id="phone" name="phone" required>
+                  <label for="text">Name</label>
+                  <input type="text" id="name" name="name" required>
+                  <textarea rows="4" cols="50" name="comment" required>
+                  </textarea>
 
                   <button type="submit">Submit</button>
                 </form>
