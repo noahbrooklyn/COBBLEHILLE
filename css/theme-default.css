@@ -10337,18 +10337,19 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #bfbfbf;
 }
 
-.company-logos-ul {
+# ompany-logos-ul {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: center;
+    display: inline;
 }
 
-.company-logos {
+# company-logos {
     padding: 20px 0 0;
 }
 
-.h4 .sub-heading {
+# sub-heading {
     font-size: 20px;
     text-align: center;
     line-height: 30px;
