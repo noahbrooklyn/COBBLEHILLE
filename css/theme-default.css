@@ -10347,13 +10347,12 @@ form .row:first-child .floating-label-form-group {
     padding: 20px 0 0;
 }
 
-h4.sub-heading {
+h4 .sub-heading {
     font-size: 20px;
     text-align: center;
     line-height: 30px;
     margin: 0 auto 20px;
     max-width: 660px;
-
   }
 
 .footer {
