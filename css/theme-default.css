@@ -10326,6 +10326,9 @@ hr.small {
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #bfbfbf;
+  background-color: #d3efec;
+    border-radius: 41px;
+
 }
 
 .floating-label-form-group input,
@@ -10342,10 +10345,12 @@ hr.small {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   resize: none;
+
 }
 
 .floating-label-form-group label {
   display: block;
+  background-color: white;
   z-index: 0;
   position: relative;
   top: 2em;
