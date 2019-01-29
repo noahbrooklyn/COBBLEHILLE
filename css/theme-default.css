@@ -593,6 +593,12 @@ mark,
   content: "\2014 \00A0";
 }
 
+.top-bar {
+  text-align:center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
