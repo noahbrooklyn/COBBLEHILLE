@@ -10371,9 +10371,9 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding: 22.25rem 15px 6rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("../img/bg-footer.jpg");
-  background: linear-gradient(rgba(113, 99, 99, 0.7), rgba(11, 8, 8, 0.7)), url("../img/bg-footer.jpg");
+  background: linear-gradient(144, 120, 120, 0.7), rgba(0, 0, 0, 0.85)), url("../img/bg-footer.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center;h
   background-attachment: scroll;
 }
 
