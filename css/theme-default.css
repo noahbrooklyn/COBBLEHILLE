@@ -10336,6 +10336,18 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #bfbfbf;
 }
 
+.company-logos {
+    padding: 20px 0 0;
+}
+
+sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto 20px;
+    max-width: 660px;
+
+  }
+  
 .footer {
   padding: 6.25rem 0 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("../img/bg-footer.jpg");
