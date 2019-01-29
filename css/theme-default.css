@@ -9702,10 +9702,11 @@ hr.small {
     opacity: 1;
   }
 }
-#ul-logo {
+.logo {
   display: block;
   width: 90px;
   height: 90px;
+  style:none;
 }
 
 #navbar-main {
