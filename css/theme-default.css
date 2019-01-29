@@ -9703,7 +9703,7 @@ hr.small {
 }
 
 #navbar-main .navbar-brand-logo {
-  height: 2.5rem;
+  height: 3.6rem;
 }
 
 #navbar-main .navbar-toggler {
@@ -9725,7 +9725,7 @@ hr.small {
 }
 
 #navbar-main .nav-item:first-child {
-  margin-top: 1rem;
+  margin-top: 1.3rem;
 }
 
 #navbar-main .nav-item:last-child {
@@ -9733,7 +9733,7 @@ hr.small {
 }
 
 #navbar-main .nav-item .nav-link {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #fff;
 }
 
@@ -9770,7 +9770,7 @@ hr.small {
     -webkit-transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     padding: 1.5rem 0;
-    background: transparent;
+    background: #385658;
   }
   #navbar-main .navbar-brand {
     -webkit-transition: all 0.15s ease-in-out;
