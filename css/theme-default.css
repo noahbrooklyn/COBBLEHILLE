@@ -128,7 +128,7 @@ ul ol {
   margin-bottom: 0;
   list-style: none;
    display: flex;
-   
+
 }
 
 dt {
@@ -9701,6 +9701,11 @@ hr.small {
   .slick-arrow:hover {
     opacity: 1;
   }
+}
+#ul-logo {
+  display: block;
+  width: 90px;
+  height: 90px;
 }
 
 #navbar-main {
