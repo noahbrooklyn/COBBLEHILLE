@@ -125,6 +125,8 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  display: flex;
+list-style: none;
 }
 
 dt {
@@ -9717,7 +9719,7 @@ hr.small {
 }
 
 #navbar-main .navbar-brand-logo {
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 #navbar-main .navbar-toggler {
@@ -9747,7 +9749,7 @@ hr.small {
 }
 
 #navbar-main .nav-item .nav-link {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #fff;
 }
 
@@ -9784,7 +9786,7 @@ hr.small {
     -webkit-transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     padding: 1.5rem 0;
-    background: transparent;
+    background: #215656;
   }
   #navbar-main .navbar-brand {
     -webkit-transition: all 0.15s ease-in-out;
