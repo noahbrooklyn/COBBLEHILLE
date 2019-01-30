@@ -669,7 +669,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(255, 255, 250, 0.01);
+
 }
 
 @media (min-width: 576px) {
@@ -9638,7 +9638,6 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: rgba(255, 255, 251, 0.01);
   padding: 20px;
 }
 
@@ -10382,6 +10381,5 @@ form .row:first-child .floating-label-form-group {
 }
 .container {
     border-radius: 5px;
-    background-color: rgba(255, 255, 250, 0.01);
     padding: 20px;
 }
