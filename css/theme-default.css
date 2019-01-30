@@ -9367,6 +9367,11 @@ p.mb-0 {
   text-align: center !important;
 }
 
+h2.text-center{
+margin: 5px
+
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
