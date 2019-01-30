@@ -9515,7 +9515,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
 }
 
 .text-hide {
@@ -9996,7 +9996,7 @@ hr.small {
 }
 
 .btn-callout {
-  padding: 3rem 0;
+  padding: 1.75rem 0;
   font-weight: 300 !important;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   text-transform: none;
@@ -10354,9 +10354,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding: 6.25rem 0 2rem;
+  padding: 12.25rem 0 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("../img/bg-footer.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url("../img/bg-footer.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(20, 30, 31, 0.35)), url("../img/bg-footer.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
