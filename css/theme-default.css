@@ -9638,7 +9638,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #ffffff !important;
+  background-color: transparent!important;
   padding: 20px;
 }
 
@@ -10384,6 +10384,6 @@ form .row:first-child .floating-label-form-group {
 }
 .container {
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
 }
