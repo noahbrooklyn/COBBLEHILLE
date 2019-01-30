@@ -4267,6 +4267,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 
 .nav-link {
@@ -4367,6 +4368,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+   position: fixed;
 }
 
 .navbar > .container,
@@ -9824,6 +9826,8 @@ hr.small {
     transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     padding: 1.5rem 0;
     background: #215656;
+    position: fixed;
+    top: 30px;
   }
   #navbar-main .navbar-brand {
     -webkit-transition: all 0.15s ease-in-out;
