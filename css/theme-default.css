@@ -10387,3 +10387,8 @@ form .row:first-child .floating-label-form-group {
     border-radius: 5px;
     padding: 20px;
 }
+
+#company-logos.list {
+  display: inline-flex !important;
+  style:none !important;
+}
