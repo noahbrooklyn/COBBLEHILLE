@@ -9733,7 +9733,7 @@ hr.small {
   }
 }
 #logo {
-  display: block;
+  display: inline-flex;
   width: 90px;
   height: 90px;
   style:none;
