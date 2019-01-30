@@ -9577,6 +9577,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .container {
     min-width: 992px !important;
+    background-color: transparent;
   }
   .navbar {
     display: none;
@@ -9642,7 +9643,7 @@ input[type=submit]:hover {
 }
 
 =======
->>>>>>> f6ff83dca059facf8f0c385a57e57d450b51bd3b
+
 .page-section {
   padding: 6.25rem 0;
 }
