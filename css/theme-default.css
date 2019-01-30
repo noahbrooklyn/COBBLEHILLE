@@ -132,8 +132,8 @@ address {
   list-style-type: disc;
    }
 
-   ul.listing.li {
-     display: inline-flex;
+   ul.listing {
+     display: inline-flex !important;
     list-style-type: none;
    }
 
