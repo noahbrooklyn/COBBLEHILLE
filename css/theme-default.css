@@ -117,7 +117,7 @@ address {
   list-style-type: disc;
    }
 
-   ul.listing {
+   ul.listing.li {
      display: inline-flex;
     list-style-type: none;
    }
