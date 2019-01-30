@@ -97,3 +97,8 @@
   });
 
 })(jQuery); // End of use strict
+
+
+jQuery( document ).ready(function() {
+  jQuery( ".x-navbar-inner .x-container" ).append( '<div class="my-phone">+1-347-248-8849</div>' );
+});
