@@ -137,6 +137,20 @@ address {
     list-style-type: none;
    }
 
+
+   @media (max-width: 500px) {
+     ul.list {
+       display: block;
+       width: 100%;
+       overflow-x: auto;
+       -webkit-overflow-scrolling: touch;
+       -ms-overflow-style: -ms-autohiding-scrollbar;
+     }
+     .table-responsive-md > .table-bordered {
+       border: 0;
+
+   }
+
 ol,
 ul,
 dl {
