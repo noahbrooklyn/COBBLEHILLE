@@ -112,13 +112,12 @@ address {
   line-height: inherit;
 }
 
+
 ol,
 ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
-  list-style: none;
-   display: flex;
 }
 
 ol ol,
@@ -126,9 +125,6 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
-  list-style: none;
-   display: flex;
-
 }
 
 dt {
@@ -266,7 +262,7 @@ button:focus {
 }
 
 .a-btn{
-    background-color: #369991;
+    background: linear-gradient(top, #80a9da 0%,#6f97c5 100%);
     padding-left: 5px;
     padding-right: 58px;
     height: 38px;
@@ -483,9 +479,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 550;
+  font-weight: 700;
   line-height: 1.2;
-  color: black;
+  color: inherit;
 }
 
 h1, .h1 {
@@ -568,7 +564,6 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
-  display: inline;
 }
 
 .list-inline-item {
@@ -599,25 +594,10 @@ mark,
   content: "\2014 \00A0";
 }
 
-.top-bar {
-  text-align:center;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-  }
-
-.img-fluid-about {
-  max-width: 25%;
-    height: auto;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-    border-radius: 18%;
+  max-width: 100%;
+  height: auto;
 }
-
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8049,8 +8029,6 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
-  font-size: 1.4rem;
-    font-weight: 400;
 }
 
 .ml-0,
@@ -9458,7 +9436,6 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #ef4035 !important;
-  font-weight: 700  !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9534,7 +9511,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .text-hide {
@@ -9633,6 +9610,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+<<<<<<< HEAD
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -9663,6 +9641,8 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+=======
+>>>>>>> f6ff83dca059facf8f0c385a57e57d450b51bd3b
 .page-section {
   padding: 6.25rem 0;
 }
@@ -9693,10 +9673,9 @@ hr.small {
 
 .bg-black {
   background-color: #2d9a92 !important;
-  padding: 35px 83px 17px 91px;
+  padding-bottom: 2rem;
+    padding-top: 3rem;
 }
-
-
 
 .slick-arrow {
   position: absolute;
@@ -9733,12 +9712,6 @@ hr.small {
     opacity: 1;
   }
 }
-#logo {
-  display: inline-flex;
-  width: 90px;
-  height: 90px;
-  style:none;
-}
 
 #navbar-main {
   min-height: 66px;
@@ -9746,7 +9719,7 @@ hr.small {
 }
 
 #navbar-main .navbar-brand-logo {
-  height: 3.6rem;
+  height: 2.5rem;
 }
 
 #navbar-main .navbar-toggler {
@@ -9768,7 +9741,7 @@ hr.small {
 }
 
 #navbar-main .nav-item:first-child {
-  margin-top: 1.3rem;
+  margin-top: 1rem;
 }
 
 #navbar-main .nav-item:last-child {
@@ -9776,7 +9749,7 @@ hr.small {
 }
 
 #navbar-main .nav-item .nav-link {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -9813,7 +9786,7 @@ hr.small {
     -webkit-transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
     padding: 1.5rem 0;
-    background: #385658;
+    background: transparent;
   }
   #navbar-main .navbar-brand {
     -webkit-transition: all 0.15s ease-in-out;
@@ -9858,10 +9831,10 @@ hr.small {
 }
 
 .masthead .masthead-title {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .masthead .masthead-subtitle {
@@ -9914,8 +9887,7 @@ hr.small {
   .masthead .masthead-title {
     font-size: 5.3rem;
     line-height: 6rem;
-    font-weight: 590
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
   }
 
   .masthead .masthead-subtitle {
@@ -10022,7 +9994,7 @@ hr.small {
 }
 
 .btn-callout {
-  padding: 1.8rem 0;
+  padding: 3rem 0;
   font-weight: 300 !important;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   text-transform: none;
@@ -10327,9 +10299,6 @@ hr.small {
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #bfbfbf;
-  background-color: #d3efec;
-    border-radius: 41px;
-
 }
 
 .floating-label-form-group input,
@@ -10346,12 +10315,10 @@ hr.small {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   resize: none;
-
 }
 
 .floating-label-form-group label {
   display: block;
-  background-color: white;
   z-index: 0;
   position: relative;
   top: 2em;
@@ -10384,32 +10351,12 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #bfbfbf;
 }
 
-# company-logos-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    display: inline;
-}
-
-# company-logos {
-    padding: 20px 0 0;
-}
-
-# sub-heading {
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-    margin: 0 auto 20px;
-
-  }
-
 .footer {
-  padding: 22.25rem 15px 6rem;
+  padding: 6.25rem 0 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("../img/bg-footer.jpg");
-  background: linear-gradient(144, 120, 120, 0.7), rgba(0, 0, 0, 0.85)), url("../img/bg-footer.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url("../img/bg-footer.jpg");
   background-size: cover;
-  background-position: center;h
+  background-position: center;
   background-attachment: scroll;
 }
 
@@ -10432,6 +10379,10 @@ form .row:first-child .floating-label-form-group {
 @media (min-width: 992px) {
   .footer {
     background-attachment: fixed;
-    height: 500px;
   }
+}
+.container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
 }
