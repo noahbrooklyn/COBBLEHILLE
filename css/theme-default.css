@@ -9599,7 +9599,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .container {
     min-width: 992px !important;
-    background-color: inherit!important;
   }
   .navbar {
     display: none;
