@@ -9577,7 +9577,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .container {
     min-width: 992px !important;
-    background-color: transparent;
+    background-color: #ffffff;
   }
   .navbar {
     display: none;
@@ -10384,6 +10384,6 @@ form .row:first-child .floating-label-form-group {
 }
 .container {
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #ffffff;
     padding: 20px;
 }
