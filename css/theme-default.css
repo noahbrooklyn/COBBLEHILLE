@@ -116,6 +116,12 @@ address {
   display: block;
   list-style-type: disc;
    }
+
+   ul.listing {
+     display: inline-flex;
+    list-style-type: none;
+   }
+   
 ol,
 ul,
 dl {
