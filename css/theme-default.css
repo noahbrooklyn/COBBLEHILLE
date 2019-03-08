@@ -290,7 +290,7 @@ button:focus {
 }
 
 .a-btn{
-    background: linear-gradient(top, #80a9da 0%,#6f97c5 100%);
+    background: black;
     padding-left: 5px;
     padding-right: 58px;
     height: 38px;
